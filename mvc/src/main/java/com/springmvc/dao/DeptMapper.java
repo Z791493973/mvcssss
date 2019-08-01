@@ -29,5 +29,7 @@ public interface DeptMapper {
     //鏍规嵁id鏌ヨ
     @Select("select deptno,dname,loc from dept where deptno=#{deptno}")
     Dept findById(Integer deptno);
+    
+    111
 
 }
